@@ -41,7 +41,7 @@ def get_sma(ticker, intervals, start, end):
         df = pd.concat([df, sma[start:end]], axis=1)
         df = df.rename(columns={"SMA": f"sma_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -59,7 +59,7 @@ def get_wma(ticker, intervals, start, end):
         df = pd.concat([df, wma[start:end]], axis=1)
         df = df.rename(columns={"WMA": f"wma_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -77,7 +77,7 @@ def get_trima(ticker, intervals, start, end):
         df = pd.concat([df, trima[start:end]], axis=1)
         df = df.rename(columns={"TRIMA": f"trima_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -95,7 +95,7 @@ def get_t3(ticker, intervals, start, end):
         df = pd.concat([df, t3[start:end]], axis=1)
         df = df.rename(columns={"T3": f"t3_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -113,7 +113,7 @@ def get_rsi(ticker, intervals, start, end):
         df = pd.concat([df, rsi[start:end]], axis=1)
         df = df.rename(columns={"RSI": f"rsi_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -131,7 +131,7 @@ def get_willr(ticker, intervals, start, end):
         df = pd.concat([df, willr[start:end]], axis=1)
         df = df.rename(columns={"WILLR": f"willr_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -149,7 +149,7 @@ def get_adx(ticker, intervals, start, end):
         df = pd.concat([df, adx[start:end]], axis=1)
         df = df.rename(columns={"ADX": f"adx_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -167,7 +167,7 @@ def get_mom(ticker, intervals, start, end):
         df = pd.concat([df, mom[start:end]], axis=1)
         df = df.rename(columns={"MOM": f"mom_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -185,7 +185,7 @@ def get_cci(ticker, intervals, start, end):
         df = pd.concat([df, cci[start:end]], axis=1)
         df = df.rename(columns={"CCI": f"cci_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -203,7 +203,7 @@ def get_cmo(ticker, intervals, start, end):
         df = pd.concat([df, cmo[start:end]], axis=1)
         df = df.rename(columns={"CMO": f"cmo_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -221,7 +221,7 @@ def get_roc(ticker, intervals, start, end):
         df = pd.concat([df, roc[start:end]], axis=1)
         df = df.rename(columns={"ROC": f"roc_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -239,7 +239,7 @@ def get_mfi(ticker, intervals, start, end):
         df = pd.concat([df, mfi[start:end]], axis=1)
         df = df.rename(columns={"MFI": f"mfi_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -257,7 +257,7 @@ def get_trix(ticker, intervals, start, end):
         df = pd.concat([df, trix[start:end]], axis=1)
         df = df.rename(columns={"TRIX": f"trix_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
@@ -275,7 +275,7 @@ def get_dx(ticker, intervals, start, end):
         df = pd.concat([df, dx[start:end]], axis=1)
         df = df.rename(columns={"DX": f"dx_{period}"})
 
-        time.sleep(12)
+        #time.sleep(12)
 
     return df
 
